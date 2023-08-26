@@ -1,23 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Hero from '../components/sections/Hero.astro';
 
 ---
 
 <Layout title="Bine ati venit le Cursuri SEO.">
-	<main>
-		
+	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
+		<Hero/>
 		
 	</main>
 </Layout>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-</style>
