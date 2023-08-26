@@ -1,0 +1,38 @@
+---
+import Course from "../cards/Course.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="courses">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <Title>
+                Cursuri SEO si Marketing online
+            </Title>
+            <Paragraph>
+                Invata intr-un mod simplu si rapid tot ce trebuie sa stii despre promovarea online, de la traineri practicieni si cu experienta vasta in domeniu.
+            </Paragraph>
+        </div>
+        <div class="flex justify-center flex-wrap gap-4">
+            <Course title="Curs SEO" description="Curs optimizare site pentru a ajunge in topul rezultatelor pe motoarele de cautare" url="/logos/Cursuri-SEO.png" />
+
+            <Course title="Google Ads" description="Curs despre plasarea eficienta a reclamelor platite pe Google" url="/logos/Cursuri-PPC.png" />
+               
+            <Course title="Google Analytics" description="Curs despre analiza datelor web pentru imbunatatirea strategiei de afaceri" url="/logos/Cursuri-Google-Analytics.png" />
+          
+            <Course title="Content writing" description="Curs despre creerea de continut pentru situri in mod eficient" url="/logos/cursuri-content-writing.png" />
+          
+            <Course title="Social Media & Fb Ads" description="Curs comprehensiv despre marketing prin social media" url="/logos/cursuri-social-media.png" />
+         
+            <Course title="Curs E-Commerce" description="Curs despre promovarea si optimizarea magazinelor online" url="/logos/Cursuri-E-commerce-SEO.png" />
+         
+            <Course title="Curs Automation" description="Curs despre automatizarea celor mai frecvente sarcini de marketing" url="/logos/curs-marketing-automation.png" />
+         
+            <Course title="Curs Marketing Online" description="Curs despre cele mai importante strategii de marketing online" url="/logos/curs-marketing-online.png" />
+             
+        </div>
+    </Container>
+</section>
