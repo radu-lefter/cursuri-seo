@@ -1,0 +1,35 @@
+---
+import Container from '../shared/Container.astro';
+import Paragraph from '../shared/Paragraph.astro';
+import Title from '../shared/Title.astro';
+import BlogCard from '../cards/BlogCard.astro';
+
+const allPosts = await Astro.glob('../../pages/posts/*.md');
+---
+
+<section id="blog-posts">
+  <Container className="space-y-10 md:sapce-y-12 ">
+    <div class="text-center max-w-3xl mx-auto space-y-4">
+      <Title>Fii la curent cu ce e nou in domeniu</Title>
+      <Paragraph>
+        <a href="https://rezistenta-online.us4.list-manage.com/subscribe?u=ce4cfff284af4f094115d0fcf&id=a73c2f0bd9">Click aici si aboneaza-te la newsletter</a>, pentru a primi Ghidul de
+        Marketing Modern, si informatii periodice privind ce e nou in domeniu si
+        data urmatoarelor cursuri.
+      </Paragraph>
+    </div>
+    <div class="flex flex-wrap justify-center gap-4">
+        {
+          allPosts
+            .slice(-3)
+            .reverse()
+            .map((post) => (
+              <BlogCard
+                url={post.url!}
+                title={post.frontmatter.title}
+                description={post.frontmatter.description}
+              />
+            ))
+        }
+    </div>
+  </Container>
+</section>

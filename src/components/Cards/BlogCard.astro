@@ -1,0 +1,27 @@
+---
+import Paragraph from '../shared/Paragraph.astro';
+import Title from '../shared/Title.astro'
+
+interface Props {
+  url: string,
+  title: string,
+  description: string
+}
+
+const { url, title, description } = Astro.props;
+---
+
+<div
+  class="flex flex-col w-2/3 h-64 p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
+>
+  <div class="mt-2 space-y-4 relative">
+    <div class="flex justify items-center">
+      <h2 class="text-lg md:text-xl font-semibold text-heading-2 pl-2">
+        <a href={url}>{title}</a>
+      </h2>
+    </div>
+    <Paragraph>
+      {description}
+    </Paragraph>
+  </div>
+</div>
