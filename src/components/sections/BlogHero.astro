@@ -1,0 +1,26 @@
+---
+import Container from '../shared/Container.astro';
+import Paragraph from '../shared/Paragraph.astro';
+---
+
+<section
+  class="relative pt-32 lg:pt-14 bg-red-500 h-screen"
+>
+  <Container className={'flex flex-col lg:flex-row gap-10 lg:gap-12 '}>
+    <div
+      class="relative flex flex-col items-center text-center lg:py-7 xl:py-8 lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
+    >
+      <h1
+        class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight font-bold text-heading-1"
+      >
+        Bine ati venit pe blogul Cursuri SEO
+      </h1>
+      <Paragraph className="lg:w-1/2 mt-8">
+        Aici puteti afla cele mai noi si importante stiri despre inovatiile din domeniul SEO 
+        de care trebuie sa stie orice profesionist SEO sau cei care vor sa-si promoveze afacerea
+        online
+      </Paragraph>
+    </div>
+    
+  </Container>
+</section>

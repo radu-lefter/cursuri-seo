@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BlogHero from '../components/sections/BlogHero.astro';
+import BlogPost from '../components/elements/BlogPost.astro';
+const allPosts = await Astro.glob('../pages/posts/*.md');
+---
+
+<Layout title="Bine ati venit le Cursuri SEO.">
+	<main class="flex flex-col overflow-hidden">
+    <BlogHero/>
+	<h1>Blogul Cursuri SEO</h1>
+    <p>Fii la curent cu ce e nou in domeniu</p>
+    <ul>
+        {allPosts.map((post) => <BlogPost url={post.url!} title={post.frontmatter.title} description={post.frontmatter.description}/>)}
+    </ul>
+	</main>
+</Layout>
