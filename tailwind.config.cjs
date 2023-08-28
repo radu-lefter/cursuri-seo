@@ -16,8 +16,12 @@ module.exports = {
 			},
 			screens:{
 				midmd:"880px"
-			}
+			}, 
+
 		},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/typography'),
+	],
+
 }

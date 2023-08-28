@@ -105,6 +105,7 @@ const { title } = Astro.props;
     --color-box: 255 255 255;
     --box-border: 229 231 235;
     --box-sd: 226 232 240 / 0.5;
+
     --heading-1: 23 37 84;
     --heading-2: 31 41 55;
     --heading-3: 55 65 81;
@@ -121,12 +122,45 @@ const { title } = Astro.props;
     --heading-3: 209 213 219;
   }
 
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base{
+  h1{
+    font-size: 64px;
+    font-weight:700;
+  }
+  h2{
+    font-size: 48px;
+    font-weight:700
+  }
+ h3{
+    font-size: 32px;
+    font-weight:700
+  }
+ h4{
+    font-size: 28px;
+    font-weight:700
+  }
+ h5{
+    font-size: 24px;
+    font-weight:700
+  }
+ h6{
+    font-size: 20px;
+    font-weight:700
+  }
+  
+}
+
   html {
     scroll-behavior: smooth;
   }
   body {
     font-family: 'Raleway', sans-serif;
   }
+
 
   [data-toggle-nav][data-open-nav='true'] #line1 {
     transform: translateY(0.375rem) rotate(40deg);
