@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BlogCard from '../../components/cards/BlogCard.astro';
-import BlogHero from '../../components/sections/BlogHero.astro';
+import Hero from '../../components/sections/Hero.astro';
 import Title from '../../components/shared/Title.astro';
 
 export async function getStaticPaths() {
@@ -23,7 +23,7 @@ const { posts } = Astro.props;
 const filteredPosts = posts.filter((post: any) => post.frontmatter.tags?.includes(tag));
 ---
 <Layout title={tag!}>
-  <BlogHero />
+  <Hero title="Blog Cursuri SEO" description="Aici puteti afla cele mai noi si importante stiri despre inovatiile din domeniul SEO de care trebuie sa stie orice profesionist SEO sau cei care vor sa-si promoveze singuri afacerea online"/>
   <div class="flex flex-col items-center gap-4 p-4">
     <Title>Postai taguite cu tagul: {tag}</Title>
     {filteredPosts.map((post: any) => <BlogCard url={post.url!} imageUrl={post.frontmatter.image.url} title={post.frontmatter.title} description={post.frontmatter.description}/>)}

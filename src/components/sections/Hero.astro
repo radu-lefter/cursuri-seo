@@ -1,6 +1,14 @@
 ---
 import Container from '../shared/Container.astro';
 import Paragraph from '../shared/Paragraph.astro';
+
+interface Props {
+  title: string,
+}
+
+const { title, description } = Astro.props;
+
+
 //gwendolyn
 ---
 
@@ -12,13 +20,10 @@ import Paragraph from '../shared/Paragraph.astro';
       <h1
         class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight xl:text-6xl/tight font-bold text-heading-1"
       >
-        Cursuri SEO Acreditate.
+      {title}
       </h1>
       <Paragraph className="lg:w-1/2 mt-8">
-        Cursuri SEO practice in Bucuresti si online pentru incepatori si
-        intermediari. Un proiect sustinut de MAKE IT ACADEMY - Cursuri Marketing
-        Online Nr. 1 in Romania si London Marketing Academy - Digital Marketing
-        Courses London.
+        {description}
       </Paragraph>
       <div class="flex flex-row pt-5 ml-[80px]">
         <div id="svg1" class="">

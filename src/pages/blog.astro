@@ -1,12 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import BlogHero from '../components/sections/BlogHero.astro';
+import Hero from '../components/sections/Hero.astro';
 import BlogCard from '../components/cards/BlogCard.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 
 <Layout title="Bine ati venit le Cursuri SEO.">
-    <BlogHero />
+    <Hero title="Blog Cursuri SEO" description="Aici puteti afla cele mai noi si importante stiri despre inovatiile din domeniul SEO de care trebuie sa stie orice profesionist SEO sau cei care vor sa-si promoveze singuri afacerea online"/>
     <div class="flex flex-row">
       <div class="flex justify-center items-center w-1/2 p-2 m-2 border-2 border-double bg-red-400">
         <p class="text-center"><a
