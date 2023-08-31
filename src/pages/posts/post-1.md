@@ -1,51 +1,36 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Noutati SEO in 2023'
-pubDate: 2023-07-01
-description: 'Deoarece la finalul anului trecut au avut loc diverse schimbari in algoritmul Google dar nu numai, care au influentat semnificativ SEO, acest articol sumarizeaza noutatile pe care ar trebui sa le cunosti in 2023.'
+title: 'Mixul de Marketing: Continut Hero, Hub, Hygiene'
+pubDate: 2023-07-05
+description: 'Si in cazul content marketingului exista un tip de mix de marketing, mai putin cunoscut si discutat insa pe piata din Romania, dar foarte bun de invatat si de pus in aplicare. Mixul ideal presupune crearea de 3 tipuri de continut: Hero, Hub si Hygene, fiecare tip putand fi adaptat pentru oricare stadiu in care este cumparatorul (Atentie, Interes, Dorinta, Actiune sau Post actiune).'
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/images/trenduri-seo-2023.jpg'
-    alt: 'trenduri-seo'
-tags: ["seo", "noutati", "trenduri"]
+    url: '/images/mix-marketing-continut.jpg'
+    alt: 'marketing-continut'
+tags: ["seo", "marketing", "continut"]
 ---
 
-# 1. E-E-A-T
-In decembrie 2022, Google a mai adaugat un E la E-A-T-ul pe care quality search raters sunt ghidati sa il verifice, in special pentru site-urile de tip YMYL (your money your life), dar si pentru orice site care se incadreaza chiar si doar cu unele articole in zona de sfaturi care pot afecta bunastarea oamenilor. Noul E vine de la Experienta, in timp ce E-A-T vine de la expertiza, autoritate si factori de incredere. 
+# 1. Continut Hero
 
-Solutiile pentru a va incadra noilor reguli E-E-A-T sunt: continut cat mai bogat si util (lungime si subtitluri care acopera FAQ), semnare articole de persoane cu expertiza, pagini despre autor/despre site care sa inspire multa incredere, sa reiasa autoritatea in domeniu, mentionare surse la final de articole (fara linkuri active insa, pentru a nu scadea puterea paginii). 
+Este acel continut care este creat de 2 sau 3 ori pe an, centrat pe evenimente sau lansari de produs ale organizatiei, cu scopul principal de a creste brand awareness-ul. Pentru ca este destinat publicului larg si va forma parerea asupra brandului, de obicei necesita si destul de multe resurse.
 
-Ce credem ca ar mai ajuta in 2023 ar fi daca efectiv in textele din articolele ymyl ar aparea cuvantul experienta. Asta este ceea ce Google va cauta in special in lupta cu AI. Ceea ce ne conduce la subiectul 2.
+Continutul Hero e indicat sa starneasca reactii, sa fie "distribuibil", si sa fie inspirational, de impact, pentru a ii creste sansele de viralitate si pentru a atrage astfel foarte multi vizitatori, lucru ce va ajuta la scaderea costurilor.
 
+# 2. Continut Hub
 
-# 2. ChatGPT
-Cea mai mare schimbare adusa de luna decembrie 2022, inclusiv in SEO, este probabil explozia utilizarii noului ChatGPT (peste un milion de utilizatori la doar 5 zile dupa lansarea publica).
+Este un tip de continut generat regulat, precum postarile pe blogul companiei, care se concentreaza in special pe interesele segmentului tinta, de exemplu pe baza unor interese exprimate de abonati (de exemplu in comentarii).
 
-Este prima unealta AI care ii sperie pe cei de la Google si este o unealta care a crescut mai repede decat multe alte platforme foarte populare (de ex Instagram).
+Scopul lui este sa aduca plus valoare, sa castige incredere si sa genereze interactiuni, conversatii cu potentialii clienti. Continutul poae fi si de tip video sau landing page, fiind promovat in mod special prin retelele sociale.
 
-Cateva moduri in care ChatGPT poate ajuta la activitati SEO:
+# 3. Continut Hygiene
 
-- idei de cuvinte cheie, idei de titluri de articole, idei de continut pentru articole, de intrebari pentru interviuri
+Este acel continut educativ pe care il cauta clientii de tipul tutorialelor, articolelor "cum sa", trainingurilor chiar, generat pe baza cautarilor si intrebarilor frecvente. Din aceasta cauza mai este numit si Helping content.
 
-- scriere de continut (pentru articole, dar si postari sociale, newslettere, scenarii clipuri youtube etc), de anumite lungimi indicate (de ex 5000 de caractere), care sa contina anumite informatii, sa atinga anumite subiecte in subtitluri, sa aiba un anumit stil/ton, sa ajute la anumite obiective (de ex scrie-mi un articol care sa convinga oamenii sa cumpere x)
-
-- (re)scriere meta taguri sau descrieri produse/servicii
-
-- sumarizare articole sau rescriere continut, pentru promovarea articolelor si pe alte site-uri
-
-- raspunsuri la intrebari de tip HARO, TPU etc.
-
-- creare de cod, de exemplu date structurate pentru anumite pagini..
-
-Este important de mentionat ca textele generate pot duce la probleme de continut duplicat daca prompt-urile sunt foarte generale, lucruri pe care le cauta multa lume (ex: ce este x?). Daca ii puneti insa intrebari foarte specifice subiectului vostru (ex: rescrie-mi acest text), continutul trebuie doar verificat din punct de vedere ortografic, stilistic si poate fi publicat fara riscuri.
-
-Cu siguranta ChatGPT nu poate inlocui munca content writerilor, dar o poate usura prin oferirea de idei care sa ajute cu writer's block, traduceri, sumarizari cercetari etc. 
+Are ca scop atragerea de noi vizitatori, in special din zona motoarelor de cautare, sa fie gasita de clienti noi, de aceea poate fi catalogat ca si continutul cel mai important din punct de vedere SEO, si ar trebui postat cel mai des, zilnic daca este posibil.
 
 
-# 3. AI Google impotriva spamului
-Tot in decembrie 2022, Google a lansat o actualizare pentru combaterea spamului in rezultatele cautarilor, folosind sistemul SpamBrain, bazat pe AI pentru a detecta si neutraliza impactul linkurilor construite nenatural. 
 
-In 2023 Google va continua deci sa lucreze la depistarea site-urilor folosite pentru crearea de linkuri in mod neorganic, dar va folosi la randul lui AI pentru depistarea lor si cel mai probabil pentru continutul generat de unelte.
+Mixul de marketing presupune in acest caz planificarea continutului astfel incat toate aceste 3 categorii de content sa fie luate in calcul si acoperite foarte bine anual, in functie de momentele ce mai propice, de trendurile sau zilele relevante pentru promovare.
 
-Va asteptam la urmatoarele cursuri SEO din 2023. Formularul de inscriere cu data urmatoarelor cursuri se gaseste mai sus, pe coloana din partea dreapta a acestui site. Ocupa din timp locul dorit, la curs si pe Google!
+Vrei sa inveti mai mult? Sa obtii raspunsuri la intrebarile pe care le ai, si sa primesti recomandari de cum sa iti optimizezi continutul propriului site? Te invitam la urmatoarele cursuri de SEO si Content Writing. Foloseste formularul de inscriere pentru a te inscrie si ocupa din timp locul dorit, la curs si pe Google!
 

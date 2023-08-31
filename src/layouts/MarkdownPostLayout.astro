@@ -14,7 +14,7 @@ const { frontmatter } = Astro.props;
         frontmatter.pubDate.slice(0, 10)
       }
     </Paragraph>
-    <img src={frontmatter.image.url} width="600" alt={frontmatter.image.alt} />
+    {frontmatter.image ? <img src={frontmatter.image.url} width="600" alt={frontmatter.image.alt} /> : null}
     <Paragraph><em>{frontmatter.description}</em></Paragraph>
     <slot />
   </main>
