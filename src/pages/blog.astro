@@ -24,7 +24,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
       {
         allPosts.map((post) => (
           <BlogCard
-            url={post.url!}
+            url={post.url}
             imageUrl={post.frontmatter.image.url}
             title={post.frontmatter.title}
             description={post.frontmatter.description}
