@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Title from "../components/shared/Title.astro";
+import Paragraph from "../components/shared/Paragraph.astro";
+import Container from "../components/shared/Container.astro";
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <main class="p-2 overflow-hidden m-auto prose dark:prose-invert prose-slate">
+    <Title>{frontmatter.title}</Title>
+    <Paragraph>
+      Publicat de catre {frontmatter.author} la {
+        frontmatter.pubDate.slice(0, 10)
+      }
+    </Paragraph>
+    <div class="flex flex-row">
+      {
+        frontmatter.image ? (
+          <img src={frontmatter.image.url} alt={frontmatter.image.alt} class="w-1/2"/>
+        ) : null
+      }
+      <div class="flex flex-col items-center justify-center text-5xl text-red-500 w-1/2">
+        <div class="w-20 h-20">Pret</div>
+        <div class="w-25 h-20">
+          {frontmatter.price} Lei
+        </div>
+      </div>
+    </div>
+
+    <Paragraph><em>{frontmatter.description}</em></Paragraph>
+    <slot />
+  </main>
+</Layout>

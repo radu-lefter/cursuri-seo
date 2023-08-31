@@ -21,8 +21,9 @@ Incepem cu a atrage atentia asupra meta tagurilor paginilor, si in special a met
 Desi programatorul nu este obligat sa preia si atributiile unui specialist SEO si sa faca cercetari complexe de cuvinte cheie sau sa creeze titlurile si descrierile cele mai atragatoare pentru utilizatori, acesta poate ajuta la optimizarea paginilor, creandu-le metataguri unice si descriptive.
 
 Exemple de titluri care trebuie evitate:
-<title>Home</title>
-<title>Brand.ro</title>
+
+    `<title>Home</title>`
+    `<title>Brand.ro</title>`
 si alte titluri prea generale, fara relevanta sau prea lungi.
 
 Programatorul mai poate de asemenea sa creeze un sistem de administrare al continutului site-ului, care sa permita editorilor sa introduca si sa modifice meta tagurile, sau care sa le creeze automat (de exemplu in cazul magazinelor online cu mii de produse, unde acestea pot fi create automat, dupa diverse formule, stabilite de comun acord cu specialistul SEO).
@@ -30,9 +31,10 @@ Programatorul mai poate de asemenea sa creeze un sistem de administrare al conti
 # 2. Fiecarei pagini sa ii corespunda un singur URL
 
 Din fericire, in ultimii ani, intalnim tot mai rar site-uri care au mai multe adrese pentru pagini, precum seria din exemplu de mai jos, unde toate adresele prezentate pot reprezenta pagina principala a site-ului:
-http://www.site.ro
-http://site.ro
-http://www.site.ro/index.php
+
+    http://www.site.ro
+    http://site.ro
+    http://www.site.ro/index.php
 
 Si totusi nu exista curs la care sa nu fie cel putin una sau doua persoane cu aceasta problema la site. Problema apare din faptul ca fiecare adresa reprezinta pentru motoarele de cautare o pagina diferita, cu recomandari diferite, iar autoritatea pe care ar putea-o castiga pagina principala a unui site, este impartita intre versiunile de URL existente. In plus continutul adreselor suplimentare poate fi considerat continut duplicat, lucru ce va afecta indexarea site-ului de catre roboti si pozitionarea lui in motoarele de cautare.
 

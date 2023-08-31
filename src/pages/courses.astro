@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/sections/Hero.astro';
+import BlogCard from '../components/cards/BlogCard.astro';
+const allPosts = await Astro.glob('../pages/courses/*.md');
+---
+
+<Layout title="Bine ati venit le Cursuri SEO.">
+    <Hero title="Cursuri SEO" description="Aici puteti alege cursul care se potriveste cel mai bine nevoilor dumneavoastra"/>
+
+    <div class="flex flex-col items-center gap-4 p-4">
+      {
+        allPosts.map((post) => (
+          <BlogCard
+            url={post.url!}
+            imageUrl={post.frontmatter.image.url}
+            title={post.frontmatter.title}
+            description={post.frontmatter.description}
+          />
+        ))
+      }
+    </div>
+</Layout>
