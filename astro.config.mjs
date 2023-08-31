@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://radu_lefter.github.io',
+    site: 'https://radu-lefter.github.io',
     base: '/cursuri-seo',
     integrations: [tailwind({
         //applyBaseStyles: false,
