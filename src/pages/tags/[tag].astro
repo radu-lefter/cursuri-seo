@@ -1,16 +1,20 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import BlogPost from '../../components/cards/BlogCard.astro';
+import BlogCard from '../../components/cards/BlogCard.astro';
+import BlogHero from '../../components/sections/BlogHero.astro';
+import Title from '../../components/shared/Title.astro';
 
 export async function getStaticPaths() {
   const allPosts = await Astro.glob('../posts/*.md');
   return [
-    {params: {tag: "astro"}, props: {posts: allPosts}},
-    {params: {tag: "successes"}, props: {posts: allPosts}},
-    {params: {tag: "community"}, props: {posts: allPosts}},
-    {params: {tag: "blogging"}, props: {posts: allPosts}},
-    {params: {tag: "setbacks"}, props: {posts: allPosts}},
-    {params: {tag: "learning in public"}, props: {posts: allPosts}}
+    {params: {tag: "seo"}, props: {posts: allPosts}},
+    {params: {tag: "ghid"}, props: {posts: allPosts}},
+    {params: {tag: "programatori"}, props: {posts: allPosts}},
+    {params: {tag: "marketing"}, props: {posts: allPosts}},
+    {params: {tag: "continut"}, props: {posts: allPosts}},
+    {params: {tag: "noutati"}, props: {posts: allPosts}},
+    {params: {tag: "trenduri"}, props: {posts: allPosts}},
+    {params: {tag: "diacritice"}, props: {posts: allPosts}},
   ]
 }
 
@@ -19,8 +23,9 @@ const { posts } = Astro.props;
 const filteredPosts = posts.filter((post: any) => post.frontmatter.tags?.includes(tag));
 ---
 <Layout title={tag!}>
-  <p>Posts tagged with {tag}</p>
-  <ul>
-    {filteredPosts.map((post: any) => <BlogPost url={post.url!} title={post.frontmatter.title} description={post.frontmatter.description}/>)}
-  </ul>
+  <BlogHero />
+  <div class="flex flex-col items-center gap-4 p-4">
+    <Title>Postai taguite cu tagul: {tag}</Title>
+    {filteredPosts.map((post: any) => <BlogCard url={post.url!} imageUrl={post.frontmatter.image.url} title={post.frontmatter.title} description={post.frontmatter.description}/>)}
+  </div>
 </Layout>
