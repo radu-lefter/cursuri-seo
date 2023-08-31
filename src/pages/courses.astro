@@ -9,7 +9,7 @@ const allPosts = await Astro.glob('../pages/courses/*.md');
     <Hero title="Cursuri SEO" description="Aici puteti alege cursul care se potriveste cel mai bine nevoilor dumneavoastra"/>
 
     <div class="flex flex-col items-center gap-4 p-4">
-      {
+      <!-- {
         allPosts.map((post) => (
           <BlogCard
             url={post.url!}
@@ -18,6 +18,6 @@ const allPosts = await Astro.glob('../pages/courses/*.md');
             description={post.frontmatter.description}
           />
         ))
-      }
+      } -->
     </div>
 </Layout>
