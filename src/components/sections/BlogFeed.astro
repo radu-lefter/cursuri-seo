@@ -3,6 +3,7 @@ import Container from '../shared/Container.astro';
 import Paragraph from '../shared/Paragraph.astro';
 import Title from '../shared/Title.astro';
 import BlogCard from '../cards/BlogCard.astro';
+import { imageConfig } from 'astro:assets';
 
 const allPosts = await Astro.glob('../../pages/posts/*.md');
 ---
@@ -20,10 +21,9 @@ const allPosts = await Astro.glob('../../pages/posts/*.md');
     <div class="flex flex-wrap justify-center gap-4">
         {
           allPosts
-            .slice(-3)
-            .reverse()
             .map((post) => (
               <BlogCard
+                imageUrl={post.frontmatter.image.url}
                 url={post.url!}
                 title={post.frontmatter.title}
                 description={post.frontmatter.description}

@@ -12,7 +12,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
     <p class="text-heading-2">Fii la curent cu ce e nou in domeniu</p>
     <p class="text-heading-2"><a href="/tags/">Acceseaza articolele dupa subiect</a></p>
     <ul>
-        {allPosts.map((post) => <BlogCard url={post.url!} title={post.frontmatter.title} description={post.frontmatter.description}/>)}
+        {allPosts.map((post) => <BlogCard url={post.url!} imageUrl={post.frontmatter.image.url} title={post.frontmatter.title} description={post.frontmatter.description}/>)}
     </ul>
 	</main>
 </Layout>
