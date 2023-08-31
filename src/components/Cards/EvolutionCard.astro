@@ -1,0 +1,28 @@
+---
+import Paragraph from '../shared/Paragraph.astro';
+
+export interface Props {
+  year: string;
+  title: string;
+  description: string;
+}
+
+const { year, title, description } = Astro.props;
+---
+
+
+    <div
+      class="flex flex-col relative overflow-hidden rounded-xl bg-body p-4 border-4 border-box-border border-red-500 w-1/6 group"
+    >
+      <span
+        class="absolute w-28 aspect-square -top-16 -left-16 bg-red-600 rounded-full"
+        ></span
+      >
+      <div class="flex justify-end">
+        <Paragraph>{year}</Paragraph>
+      </div>
+      <Paragraph>{title}</Paragraph>
+      <hr class="h-px my-4 bg-red-500 border-0 dark:bg-gray-700" />
+      <Paragraph>
+        {description}
+      </Paragraph>
