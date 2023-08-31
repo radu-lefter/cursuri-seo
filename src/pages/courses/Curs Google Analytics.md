@@ -6,7 +6,7 @@ description: 'Google Analytics este o unealta care te ajuta sa descoperi datele 
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/Cursuri-Google-Analytics.png'
+    url: '/cursuri-seo/logos/Cursuri-Google-Analytics.png'
     alt: 'curs-google-analytics'
 ---
 

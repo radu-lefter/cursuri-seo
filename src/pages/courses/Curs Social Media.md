@@ -6,7 +6,7 @@ description: 'Scopul campaniilor pe retelele de socializare este nu doar de a co
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/cursuri-social-media.png'
+    url: '/cursuri-seo/logos/cursuri-social-media.png'
     alt: 'cursuri-social-media'
 ---
 

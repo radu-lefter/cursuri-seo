@@ -9,7 +9,7 @@ description: 'Articolul isi propune sa vina cu raspunsuri pentru cateva intrebar
 - cum scriem (meta) titlul, descrierea sau cuvintele cheie, si alte elemente ale site-ului, cu sau fara diacritice?'
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/images/trenduri-seo-2023.jpg'
+    url: '/cursuri-seo/images/trenduri-seo-2023.jpg'
     alt: 'trenduri-seo'
 tags: ["seo", "diacritice"]
 ---

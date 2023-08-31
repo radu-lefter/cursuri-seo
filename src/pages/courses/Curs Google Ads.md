@@ -6,7 +6,7 @@ description: 'Invata cum sa dezvolti o strategie eficienta pentru o campanie PPC
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/Cursuri-PPC.png'
+    url: '/cursuri-seo/logos/Cursuri-PPC.png'
     alt: 'curs-google-ads'
 ---
 

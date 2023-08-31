@@ -6,7 +6,7 @@ description: 'In cadrul cursului de Marketing Online Avansat vei dobandi suficie
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/curs-marketing-online.png'
+    url: '/cursuri-seo/logos/curs-marketing-online.png'
     alt: 'curs-marketing-online'
 ---
 

@@ -9,7 +9,7 @@ Deoarece e mult mai greu sa repari astfel de lucruri tehnice cand site-ul a ince
 De aceea, in acest scurt ghid vom prezenta cateva lucruri pe care ne-am dori ca toti programatorii sa le cunoasca si sa le respecte la construirea site-urilor: un cod al bunelor practici pentru SEO.'
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/images/Ghid-SEO-programatori.png'
+    url: '/cursuri-seo/images/Ghid-SEO-programatori.png'
     alt: 'ghid-seo'
 tags: ["seo", "ghid", "programatori"]
 ---

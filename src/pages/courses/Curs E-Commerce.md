@@ -6,7 +6,7 @@ description: 'Odata cu cresterea numarului de persoane care cumpara online, dar 
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/Cursuri-E-commerce-SEO.png'
+    url: '/cursuri-seo/logos/Cursuri-E-commerce-SEO.png'
     alt: 'curs-seo-e-commerce'
 ---
 

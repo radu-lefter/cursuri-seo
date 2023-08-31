@@ -5,7 +5,7 @@ pubDate: 2023-07-05
 description: 'Si in cazul content marketingului exista un tip de mix de marketing, mai putin cunoscut si discutat insa pe piata din Romania, dar foarte bun de invatat si de pus in aplicare. Mixul ideal presupune crearea de 3 tipuri de continut: Hero, Hub si Hygene, fiecare tip putand fi adaptat pentru oricare stadiu in care este cumparatorul (Atentie, Interes, Dorinta, Actiune sau Post actiune).'
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/images/mix-marketing-continut.jpg'
+    url: '/cursuri-seo/images/mix-marketing-continut.jpg'
     alt: 'marketing-continut'
 tags: ["seo", "marketing", "continut"]
 ---

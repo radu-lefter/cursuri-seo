@@ -6,7 +6,7 @@ description: 'Să scrii este mai ușor decât crezi, deși acest lucru ii intimi
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/cursuri-content-writing.png'
+    url: '/cursuri-seo/logos/cursuri-content-writing.png'
     alt: 'curs-content-writing'
 ---
 

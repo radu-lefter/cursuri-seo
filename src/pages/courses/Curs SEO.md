@@ -6,7 +6,7 @@ description: 'Afla cat de usor poti creste numarul de vizitatori spre site-ul ta
 price: "1200"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/Cursuri-SEO.png'
+    url: '/cursuri-seo/logos/Cursuri-SEO.png'
     alt: 'curs-seo'
 ---
 

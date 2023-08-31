@@ -5,7 +5,7 @@ pubDate: 2023-07-01
 description: 'Deoarece la finalul anului trecut au avut loc diverse schimbari in algoritmul Google dar nu numai, care au influentat semnificativ SEO, acest articol sumarizeaza noutatile pe care ar trebui sa le cunosti in 2023.'
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/images/trenduri-seo-2023.jpg'
+    url: '/cursuri-seo/images/trenduri-seo-2023.jpg'
     alt: 'trenduri-seo'
 tags: ["seo", "noutati", "trenduri"]
 ---

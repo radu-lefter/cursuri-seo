@@ -6,7 +6,7 @@ description: 'Metodele de promovare incluse in Marketing Automation reprezinta u
 price: "350"
 author: 'Ela Iliesi-Visan'
 image:
-    url: '/logos/curs-marketing-automation.png'
+    url: '/cursuri-seo/logos/curs-marketing-automation.png'
     alt: 'curs-marketing-automation'
 ---
 
