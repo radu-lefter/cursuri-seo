@@ -7,6 +7,5 @@ export default defineConfig({
     site: 'https://radu-lefter.github.io',
     base: '/cursuri-seo',
     integrations: [tailwind({
-        //applyBaseStyles: false,
     })]
 });
