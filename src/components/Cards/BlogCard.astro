@@ -2,10 +2,10 @@
 import Paragraph from "../shared/Paragraph.astro";
 
 interface Props {
-  url: string;
-  imageUrl: string;
-  title: string;
-  description: string;
+  url: string | undefined,
+  imageUrl: string,
+  title: string,
+  description: string,
 }
 
 const { url, imageUrl, title, description } = Astro.props;
